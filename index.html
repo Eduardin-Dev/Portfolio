@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Aula 2 de PW1" />
+    <!-- TAG OBRIGATÓRIA -->
+    <meta name="keywords" content="Desenvolvedor, HTML, CSS, JavaScript" />
+    <!-- TAG OBRIGATÓRIA -->
+    <meta name="author" content="Eduardo Adriano" />
+    <!-- TAG OBRIGATÓRIA -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:400,400i,700"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PW1 - Aula 2</title>
+  </head>
+  <body>
+    <header class="menu-bg">
+      <div class="menu">
+        <div class="menu-logo">
+          <a href="#">My PortFólio</a>
+        </div>
+        <nav class="menu-nav">
+          <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#PW">Programação</a></li>
+            <li><a href="#links">Links</a></li>
+            <li><a href="dd.html">Design</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <h1 class="introducao">Eduardo Adrianos<br />dos Santos - 💻😉</h1>
+
+    <section class="sobre" id="sobre">
+      <div class="sobre-info">
+        <h1>Sobre</h1>
+        <p>
+          Olá! Sou Eduardo Adriano dos Santos e esse é meu Portfólio. Uma simples demonstração de coisas que sei fazer, como: HTML, CSS e JS.
+        </p>
+        <p>
+          Estutante do Instituto Federal - Câmpus Cubatão e mais novo aspirante em Desenvolvimento de Sistemas pela Etec Doutora Ruth Cardoso.
+          Um jovem de 19 anos a procura da felicidade...
+        </p>
+      </div>
+      <div class="sobre-img">
+        <img src="./imgs/eu.jpeg" alt="Mulher tatto" />
+      </div>
+      <div class="sobre-img">
+        <img src="./imgs/eu2.jpeg" alt="Dia da mulher" />
+      </div>
+    </section>
+
+    <section class="pw" id="PW">
+      <h1>HardSkill</h1>
+      <div class="pw-container">
+        <div class="pw-item purple">
+          <h2>Lógica</h2>
+          <img src="./imgs/programming.jpg" alt="Produtos 1">
+        </div>
+        <div class="pw-item pink">
+          <h2>DataBase</h2>
+          <img src="./imgs/mysql.png" alt="Produtos 2">
+        </div>
+        <div class="pw-item blue">
+          <h2>Mobile</h2>
+          <img src="./imgs/mobile.png" alt="Produtos 3">
+        </div>
+      </div>
+    </section>
+
+    <section class="link" id="links">
+      <div class="link-item">
+        <h2>Projects</h2>
+        <span></span>
+        <ul>
+          <li>Fomulário - HTML</li>
+          <li>Photoshop</li>
+          <li>Modelagem - DataBase</li>
+          <li>Lógica de programção - C#</li>
+        </ul>
+        <a href="./pw.html">Visit</a>
+      </div>
+      
+      <div class="link-item">
+        <h2>GitHub</h2>
+        <span></span>
+        <ul>
+          <li>DinoBeast - HTML - CSS</li>
+          <li>FantasticAnimals - JS</li>
+          <li>AboutMe - Web</li>
+          <li>WallPostAPI - Laravel</li>
+          <li>WallPost - PHP - Web</li>
+        </ul>
+        <a target="_blank" href="https://github.com/Eduardin-Dev">Visit</a>
+      </div>
+      
+      <div class="link-item">
+        <h2>LinkedIn</h2>
+        <span></span>
+        <ul>
+          <li>Instituto Federal - Cubatão</li>
+          <li>Etec - São Vicente</li>
+          <li>Origamid - Desenvolvimento Web</li>
+          <li>Suporte 24h</li>
+          <li>Download dos Itens</li>
+        </ul>
+        <a target="_blank" href="https://www.linkedin.com/in/eduardo-dos-santos-301a721a8/">Visit</a>
+      </div>
+    </section>  
+  
+
+    <!--
+    <h2>Portfólio</h2>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
+      ratione amet voluptatem aperiam eos doloremque repellendus omnis magnam
+      ipsam maxime, impedit sit exercitationem, numquam in rem commodi eveniet,
+      nisi magni.
+    </p>
+
+    <h3><a href="dd.html">Design Digital</a></h3>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe
+      repudiandae quas molestias quasi repellendus velit, facere non assumenda
+      eligendi debitis quis ea odit hic fugiat nam commodi. Quasi, cum quisquam?
+    </p>
+
+    <h3><a href="pw.html">Programação Web</a></h3>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, cumque amet
+      in porro ullam nesciunt omnis corrupti eos iste tenetur tempora id non,
+      quis eligendi eaque debitis exercitationem! Dolorum, alias!
+    </p>
+
+    <h2>Melhores Cidades</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Cidade</th>
+          <th>Idade</th>
+          <th>Bairro</th>
+          <th>Foto</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>São Vicente</td>
+          <td>100 anos</td>
+          <td>Samaritá</td>
+          <td><img src="./imgs/cachoeira.avif" alt="cachoeira" /></td>
+        </tr>
+
+        <tr>
+          <td>Santos</td>
+          <td>30 anos</td>
+          <td>Gonzaga</td>
+          <td><img src="./imgs/pexels.jpeg" alt="natureza" /></td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">Criado por: Eduardin-dev</td>
+        </tr>
+      </tfoot>
+    </table>
+      -->
+
+  </body>
+</html>
