@@ -12,3 +12,7 @@ window.onload = () => {
 }
 
 gerar.addEventListener("click", () => search());
+
+function ola() {
+    alert("Olá, vidoca! Se liga, nesses gatinhos");
+}
