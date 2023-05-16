@@ -25,3 +25,7 @@ button {
     cursor: pointer;
     margin-top: 10px;
 }
+
+h1 {
+    color: white;
+}
